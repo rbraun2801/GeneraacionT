@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es_AR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ej 6</title>
+</head>
+<body>
+    <!-- 
+        Actividad 6: Crear un Formulario de Registro para un Evento Deportivo
+Objetivo: Diseñar un formulario HTML para inscripciones en un torneo de fútbol.
+
+Instrucciones:
+
+Información Básica: El formulario debe solicitar el nombre completo, la edad y el email del participante.
+Selección de Categoría: Incluir una lista desplegable para que el participante elija la categoría en la que desea participar (e.g., Sub-12, Sub-15, Sub-18).
+Posición en el Campo: Añadir un grupo de botones de opción para seleccionar la posición en la que juega (e.g., Delantero, Mediocampista, Defensa, Portero).
+Términos y Condiciones: Incluir una casilla de verificación para aceptar los términos y condiciones del torneo.
+Botón de Envío: Agregar un botón para enviar el formulario.
+
+     -->
+    
+<Form>
+    <label>Nombre</label>
+    <input type="text">
+    <label>Edad</label>
+    <input type="number" max="2">
+    <label>Email</label>
+    <input type="email">
+    <Select>Elija Categoria
+        <option value="sub12">Sub-12</option>
+        <option value="sub15">Sub-15</option>
+        <option value="sub18">Sub-18</option>
+    </Select>
+    
+    <input type="radio" name="posicion" value="Arquero"/>
+    <label for="Arquero">Arquero</label><br />
+
+    <input type="radio" name="posicion" value="Defensor"/>
+    <label for="Defensor">Defensor</label><br />
+    
+    <input type="radio" name="posicion" value="Mediocampista" />
+    <label for="Mediocampista">Mediocampista</label><br />
+    
+    <input type="radio" name="posicion" value="Delantero" />
+    <label>Delantero</label>
+
+    <input type="checkbox" name="" id=""><label>Terminos y Condiciones</label>
+
+    <button type="button">Enviar</button>
+
+</Form>
+</body>
+</html>
