@@ -1,0 +1,24 @@
+.imperio{
+    background-color: red;
+}
+#vader{
+    font-size: 100px;
+}
+#luke{
+    font-style: italic;
+}
+.soldados{
+    border: 1px solid #000;
+    letter-spacing: 14px;
+}
+
+.apoyo{
+    text-align: center;
+}
+.naves{
+    text-transform: uppercase;
+}
+.droides{
+    display: flex;
+    justify-content: center;
+}
