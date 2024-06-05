@@ -1,0 +1,20 @@
+.carnivoros{
+    background-color: rgb(85, 6, 6);
+}
+
+ .herbivoros{
+    background-color: rgb(132, 188, 47);
+ }
+
+ #triceratop{
+    text-decoration: underline;
+    font-weight:bold;
+ }
+
+ .voladores{
+    text-shadow: 1px 9px 1px black;
+ }
+
+.acuaticos{
+    font-style: oblique;
+}
