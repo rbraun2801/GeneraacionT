@@ -1,0 +1,21 @@
+#container{
+    width: 80%;
+    margin: 0% auto;
+}
+h1{
+    margin-left: 0%;
+    font-size: 40px;
+    border-bottom:2px solid red;
+    width: 26%;    
+}
+img{
+    width: 30%;
+    margin: 1,7%;
+    height:400px;
+}
+.montserrat-titulo {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
