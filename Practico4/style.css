@@ -1,0 +1,36 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  padding: 25px;
+}
+ 
+.container {
+  width: 800px;
+  height: 800px;
+  background-color: chocolate;
+  border: 5px solid #fff;
+  border-radius: 25px;
+  margin: 0 auto;
+}
+
+section{
+    display: flexbox;
+    margin: auto;
+    
+}
+
+p{
+    margin: 15px;
+    
+}
+#derecha{
+    float: right;
+}
