@@ -10,6 +10,9 @@ header img{
     height: 15rem;
     object-fit: cover;
 }
-#Contacto{
+#contacto{
     width: 70%;
+}
+#acerca{
+    text-align: center;
 }
