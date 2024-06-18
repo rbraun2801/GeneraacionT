@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
-<body>
-  <div id="nav" class="container-fluid sticky-top p-0 border-bottom">
+<body class="text-bg-secondary">
+  <nav class="containe-fluid sticky-top p-0">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -29,85 +29,96 @@
         </div>
       </div>
     </nav>
-  </div>
-  <div id="Inicio"class="container-fluid pb-4 pt-2 border-bottom">
-    
-    <header id="header">
-      <div class="card text-bg-dark ">
-        <img src="pexels-eikenaar-18267724.jpg" class="card-img" alt="...">
-        <div class="card-img-overlay text-center">
-          <h5 id="texto-card" class="card-title">BRAUN ROBERTO</h5>
-        </div>
-      </div>
-    </header>
-  </div>
-  <div id="Portfolio" class="container-fluid pb-4 pt-4 border-bottom">
-    <div class="row row-cols-3 g-4">
-      <div class="col">
-        <div class="card h-100">
-          <img src="..." class="card-img-top" alt="...">
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="..." class="card-img-top" alt="...">
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="..." class="card-img-top" alt="...">
-        </div>
+  </nav>
+  <header class="container-fluid pb-4 pt-2 px-0">
+    <div class="card text-bg-dark ">
+      <img src="pexels-eikenaar-18267724.jpg" class="card-img" alt="...">
+      <div class="card-img-overlay text-center">
+        <h5 id="texto-card" class="card-title">BRAUN ROBERTO</h5>
       </div>
     </div>
-  </div>
-  <div id="Acerca de mi" class="container-fluid border-bottom pt-4 pb-4">
-    <div class="row row-cols-3">
-      <div class="col"></div>
-      <div class="col">
-        <div style="width: 18rem;">
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit porro velit voluptas provident impedit quas vitae quis recusandae aliquid aspernatur, dolor laudantium praesentium cupiditate odit quod laboriosam assumenda similique nam.</p>
+  </header>
+  <main>
+    <section id="Portfolio" class="container-fluid pb-4 pt-4">
+
+      <div class="row row-cols-5 g-4">
+        <div class="col"></div>
+        <div class="col">
+          <div class="h-50">
+            <img src="pexels-kovyrina-18775831.jpg" class="card-img-top" alt="...">
+          </div>
         </div>
+        <div class="col">
+          <div class="h-50">
+            <img src="pexels-aljona-ovtsinnikova-121486965-24740432.jpg" class="card-img-top" alt="...">
+          </div>
+        </div>
+        <div class="col">
+          <div class="h-50">
+            <img src="pexels-patryk-gadass-491137107-23825635.jpg" class="card-img-top" alt="...">
+          </div>
+        </div>
+        <div class="col"></div>
       </div>
-      <div class="col"></div>
-    </div>
-  </div>
-  <div id="Contacto" class="container-fluid pt-4">
-    <h3>Contacto</h3>
-    <div class="input-group mb-3">
-      <span class="input-group-text" id="basic-addon1">@</span>
-      <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
-    </div>
-    
-    <div class="input-group mb-3">
-      <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
-      <span class="input-group-text" id="basic-addon2">@example.com</span>
-    </div>
-    
-    <div class="mb-3">
-      <label for="basic-url" class="form-label">Your vanity URL</label>
+
+    </section>
+    <section id="acerca" class="container pt-4 pb-4">
+      
+      <div class="row row-cols-3">
+        <div class="col"></div>
+        <div class="col">
+          <div style="width: 18rem;">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit porro velit voluptas provident impedit quas vitae quis recusandae aliquid aspernatur, dolor laudantium praesentium cupiditate odit quod laboriosam assumenda similique nam.</p>
+          </div>
+        </div>
+        <div class="col"></div>
+      </div>
+
+    </section>
+    <section id="Contacto" class="container">
+
+      <h3>Contacto</h3>
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon1">@</span>
+        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+      </div>
+
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+        <span class="input-group-text" id="basic-addon2">@example.com</span>
+      </div>
+
+      <div class="mb-3">
+        <label for="basic-url" class="form-label">Your vanity URL</label>
+        <div class="input-group">
+          <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+          <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+        </div>
+        <div class="form-text" id="basic-addon4">Example help text goes outside the input group.</div>
+      </div>
+
+      <div class="input-group mb-3">
+        <span class="input-group-text">$</span>
+        <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+        <span class="input-group-text">.00</span>
+      </div>
+
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Username" aria-label="Username">
+        <span class="input-group-text">@</span>
+        <input type="text" class="form-control" placeholder="Server" aria-label="Server">
+      </div>
+
       <div class="input-group">
-        <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
-        <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+        <span class="input-group-text">With textarea</span>
+        <textarea class="form-control" aria-label="With textarea"></textarea>
       </div>
-      <div class="form-text" id="basic-addon4">Example help text goes outside the input group.</div>
-    </div>
-    
-    <div class="input-group mb-3">
-      <span class="input-group-text">$</span>
-      <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
-      <span class="input-group-text">.00</span>
-    </div>
-    
-    <div class="input-group mb-3">
-      <input type="text" class="form-control" placeholder="Username" aria-label="Username">
-      <span class="input-group-text">@</span>
-      <input type="text" class="form-control" placeholder="Server" aria-label="Server">
-    </div>
-    
-    <div class="input-group">
-      <span class="input-group-text">With textarea</span>
-      <textarea class="form-control" aria-label="With textarea"></textarea>
-    </div>
-  </div>   
+
+    </section>
+  </main> 
+  <footer id="footer" class="container-fluid text-bg-dark pb-1 mt-3">
+    <h3>footer</h3>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat repellat omnis numquam, harum illo vero nostrum incidunt voluptates facilis ex ducimus veritatis nemo provident fugiat expedita quos eius minima ad.</p>
+  </footer> 
 </body>
 </html>
