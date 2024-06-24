@@ -12,10 +12,10 @@
   }
   
   test2(10)
- //RETORNA 20 */
+ //RETORNA 20 
 
 
- /*function triplicador(num) {
+ function triplicador(num) {
     return num * 3
  }
  function multiplicador(num1, num2) {
@@ -33,7 +33,7 @@
  resultado= division(resultado,12)
  resultado= resto(resultado,3)
 
- console.log("El resultado es"+resultado)*/
+ console.log("El resultado es"+resultado)
 
 function contarDeA_n(contar_de_a,contar_hasta) {
         for (let index = 0; index <= contar_hasta; index+=contar_de_a) {
@@ -44,7 +44,7 @@ function contarDeA_n(contar_de_a,contar_hasta) {
 
  contarDeA_n(2,10);
 
- /*function fizzBuzz2() {
+ function fizzBuzz2() {
     let palabra1="SANTOS"
     let palabra2="MULTIPLOS",
     fizz_num= prompt("Ingrese un numero para buscar el multiplo"), 
